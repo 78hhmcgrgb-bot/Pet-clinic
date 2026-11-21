@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pulse Pet Hospital & Diagnostic Center | Dr. Rajiv Kant – Gomti Nagar, Lucknow</title>
+  <meta name="description" content="Trusted veterinary care, in-house diagnostics, vaccinations, and pet surgery in Vineet Khand, Gomti Nagar, Lucknow. Led by Dr. Rajiv Kant. Rated 4.7 stars on Google." />
+
+  <!-- Open Graph / WhatsApp Link Preview -->
+  <meta property="og:title" content="Pulse Pet Hospital & Diagnostic Center – Gomti Nagar, Lucknow" />
+  <meta property="og:description" content="4.7★ Rated Veterinary Hospital & Diagnostics led by Dr. Rajiv Kant. Extended OPD & emergency care in Vineet Khand. Book on WhatsApp." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            vet: {
+              DEFAULT: '#065F46',
+              dark: '#064E3B',
+              light: '#ECFDF5'
+            },
+            warm: {
+              DEFAULT: '#D97706',
+              light: '#FEF3C7'
+            },
+            wa: {
+              DEFAULT: '#16A34A',
+              hover: '#15803D'
+            }
+          },
+          fontFamily: {
+            heading: ['"Plus Jakarta Sans"', 'sans-serif'],
+            sans: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Structured Data (Local Veterinary SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VeterinaryCare",
+    "name": "Pulse Pet Hospital & Diagnostic Center",
+    "description": "Full-service veterinary hospital and pet diagnostic center led by Dr. Rajiv Kant in Vineet Khand, Gomti Nagar, Lucknow.",
+    "telephone": "+91-98609-28038",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "SS-3/634, Vineet Khand 3, Gomti Nagar",
+      "addressLocality": "Lucknow",
+      "addressRegion": "UP",
+      "postalCode": "226010",
+      "addressCountry": "IN"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "128"
+    }
+  }
+  </script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; color: #0F172A; }
+    h1, h2, h3, h4 { font-family: 'Plus Jakarta Sans', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-white text-slate-900 antialiased overflow-x-hidden">
+
+  <!-- ==================== STICKY NAVIGATION ==================== -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-200/80">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
+      <!-- Brand Wordmark -->
+      <a href="#" class="flex items-center gap-2.5 min-w-0">
+        <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-vet text-white flex items-center justify-center shrink-0 shadow-sm">
+          <i data-lucide="heart-pulse" class="w-5 h-5"></i>
+        </div>
+        <div class="leading-tight truncate">
+          <span class="block font-heading font-bold text-slate-900 text-sm sm:text-base truncate">Pulse Pet Hospital</span>
+          <span class="block text-[11px] sm:text-xs text-slate-500 font-medium truncate">&amp; Diagnostic Center • Gomti Nagar</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-600">
+        <a href="#services" class="hover:text-vet transition-colors">Services</a>
+        <a href="#doctor" class="hover:text-vet transition-colors">Dr. Rajiv Kant</a>
+        <a href="#reviews" class="hover:text-vet transition-colors">Pet Parent Reviews</a>
+        <a href="#timings" class="hover:text-vet transition-colors">Timings &amp; Map</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-2 sm:gap-3 shrink-0">
+        <a href="tel:+919860928038"
+           class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-slate-300 text-slate-800 text-sm font-semibold hover:border-vet hover:text-vet transition-colors">
+          <i data-lucide="phone-call" class="w-4 h-4"></i>
+          <span>Call / Emergency</span>
+        </a>
+        <a href="https://wa.me/919860928038?text=Hello%20Pulse%20Pet%20Hospital%2C%20I%20would%20like%20to%20book%20a%20vet%20consultation%20for%20my%20pet."
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 px-3.5 sm:px-4 py-2.5 rounded-lg bg-wa hover:bg-wa-hover text-white text-xs sm:text-sm font-semibold shadow-sm transition-colors">
+          <svg class="w-4 h-4 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.49 0 .14 5.34.14 11.91c0 2.1.55 4.15 1.59 5.95L0 24l6.33-1.66a11.87 11.87 0 0 0 5.73 1.46h.01c6.57 0 11.92-5.34 11.92-11.91 0-3.18-1.24-6.17-3.47-8.41zM12.07 21.8h-.01a9.87 9.87 0 0 1-5.04-1.38l-.36-.21-3.76.99 1-3.66-.24-.38a9.84 9.84 0 0 1-1.51-5.25c0-5.45 4.44-9.89 9.91-9.89 2.65 0 5.13 1.03 7 2.9a9.83 9.83 0 0 1 2.9 7c0 5.45-4.44 9.88-9.89 9.88zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.21 5.09 4.5.71.31 1.27.49 1.7.63.71.23 1.36.2 1.88.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="relative bg-gradient-to-b from-vet-light/70 via-white to-white pt-10 pb-14 sm:pt-16 sm:pb-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+
+      <!-- Left Content -->
+      <div class="lg:col-span-7">
+        <!-- Trust Pill -->
+        <div class="inline-flex flex-wrap items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 shadow-sm text-xs sm:text-sm font-medium text-slate-700 mb-5">
+          <span class="text-amber-500 font-bold">★ 4.7</span>
+          <span>Rated on Google (128 Pet Parent Reviews)</span>
+          <span class="text-slate-300">•</span>
+          <span class="text-vet font-semibold">Open 7 Days</span>
+        </div>
+
+        <h1 class="text-3xl sm:text-4xl lg:text-[2.85rem] font-extrabold text-slate-900 leading-[1.15] tracking-tight">
+          Compassionate Veterinary Care &amp; Pet Diagnostics in <span class="text-vet">Gomti Nagar</span>
+        </h1>
+
+        <p class="mt-4 sm:mt-5 text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl">
+          Complete medical, surgical, and diagnostic care for dogs, cats, and companion pets led by <strong class="text-slate-800 font-semibold">Dr. Rajiv Kant</strong>. Clear explanations, gentle handling, and honest pricing—under one roof.
+        </p>
+
+        <!-- Primary CTAs -->
+        <div class="mt-7 flex flex-col sm:flex-row gap-3.5">
+          <a href="https://wa.me/919860928038?text=Hello%20Pulse%20Pet%20Hospital%2C%20I%20would%20like%20to%20book%20an%20appointment%20for%20my%20pet."
+             target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-wa hover:bg-wa-hover text-white font-semibold text-base shadow-md shadow-wa/20 transition-all">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.49 0 .14 5.34.14 11.91c0 2.1.55 4.15 1.59 5.95L0 24l6.33-1.66a11.87 11.87 0 0 0 5.73 1.46h.01c6.57 0 11.92-5.34 11.92-11.91 0-3.18-1.24-6.17-3.47-8.41zM12.07 21.8h-.01a9.87 9.87 0 0 1-5.04-1.38l-.36-.21-3.76.99 1-3.66-.24-.38a9.84 9.84 0 0 1-1.51-5.25c0-5.45 4.44-9.89 9.91-9.89 2.65 0 5.13 1.03 7 2.9a9.83 9.83 0 0 1 2.9 7c0 5.45-4.44 9.88-9.89 9.88zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.21 5.09 4.5.71.31 1.27.49 1.7.63.71.23 1.36.2 1.88.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/></svg>
+            <span>Book on WhatsApp</span>
+          </a>
+
+          <a href="tel:+919860928038"
+             class="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-white border-2 border-vet text-vet hover:bg-vet hover:text-white font-semibold text-base transition-all">
+            <i data-lucide="phone-call" class="w-5 h-5"></i>
+            <span>Call +91 98609 28038</span>
+          </a>
+        </div>
+
+        <!-- Live IST Status & Location Bar -->
+        <div class="mt-7 p-4 rounded-xl bg-white border border-slate-200 shadow-sm flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 text-sm">
+          <div class="flex items-center gap-2.5 font-medium text-slate-800">
+            <span id="live-status-dot" class="w-2.5 h-2.5 rounded-full bg-wa shrink-0"></span>
+            <span id="live-status-text">Open 7 Days • Extended OPD &amp; Emergency Hours</span>
+          </div>
+          <div class="hidden sm:block h-4 w-px bg-slate-200"></div>
+          <a href="#timings" class="flex items-center gap-2 text-slate-600 hover:text-vet transition-colors">
+            <i data-lucide="map-pin" class="w-4 h-4 text-warm shrink-0"></i>
+            <span>Vineet Khand 3, Gomti Nagar</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Visual Card (Ready for Real Hospital Photo) -->
+      <div class="lg:col-span-5">
+        <div class="relative rounded-2xl bg-vet text-white p-6 sm:p-8 shadow-xl overflow-hidden">
+          <div class="absolute -top-12 -right-12 w-44 h-44 rounded-full bg-emerald-400/20 blur-2xl pointer-events-none"></div>
+          <div class="absolute -bottom-12 -left-12 w-44 h-44 rounded-full bg-warm/20 blur-2xl pointer-events-none"></div>
+
+          <!--
+            TO ADD REAL HOSPITAL PHOTO LATER:
+            Upload hospital.jpg to GitHub and uncomment the line below:
+            <img src="hospital.jpg" alt="Pulse Pet Hospital and Diagnostic Center Gomti Nagar" class="w-full h-56 object-cover rounded-xl mb-6 border border-white/15" />
+          -->
+
+          <div class="relative z-10">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/15 text-xs font-semibold tracking-wide uppercase text-emerald-100 mb-5">
+              <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+              <span>Hospital &amp; In-House Diagnostics</span>
+            </div>
+
+            <h2 class="text-xl sm:text-2xl font-bold leading-snug">All-In-One Pet Care Center</h2>
+            <p class="text-emerald-100/90 text-sm mt-1">Led by Dr. Rajiv Kant • Vineet Khand, Gomti Nagar</p>
+
+            <div class="mt-6 space-y-3 border-t border-white/15 pt-5 text-sm">
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-300 mt-0.5 shrink-0"></i>
+                <span class="text-slate-100">Routine checkups, vaccinations &amp; in-house pathology</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-300 mt-0.5 shrink-0"></i>
+                <span class="text-slate-100">Safe spay/neuter surgeries &amp; attentive post-op care</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-300 mt-0.5 shrink-0"></i>
+                <span class="text-slate-100">Extended late-night hours, easy parking &amp; UPI accepted</span>
+              </div>
+            </div>
+
+            <div class="mt-6 pt-5 border-t border-white/15 flex items-center justify-between gap-4">
+              <div>
+                <p class="text-xs text-emerald-200 uppercase tracking-wider font-semibold">Urgent Pet Care?</p>
+                <p class="text-sm font-semibold mt-0.5">Open Sundays &amp; Late Nights</p>
+              </div>
+              <a href="#book" class="px-4 py-2 rounded-lg bg-white text-vet font-semibold text-sm hover:bg-emerald-50 transition-colors shrink-0">
+                Book Visit →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== CREDIBILITY STRIP ==================== -->
+  <section class="border-y border-slate-200 bg-slate-50/70">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 grid grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="flex items-start gap-3.5">
+        <div class="w-10 h-10 rounded-lg bg-vet-light text-vet flex items-center justify-center shrink-0">
+          <i data-lucide="stethoscope" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="font-heading font-bold text-slate-900 text-base sm:text-lg">Experienced Vet</p>
+          <p class="text-xs sm:text-sm text-slate-600">Trusted care led by Dr. Rajiv Kant</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-3.5">
+        <div class="w-10 h-10 rounded-lg bg-vet-light text-vet flex items-center justify-center shrink-0">
+          <i data-lucide="microscope" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="font-heading font-bold text-slate-900 text-base sm:text-lg">Diagnostics</p>
+          <p class="text-xs sm:text-sm text-slate-600">In-house testing for faster diagnosis</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-3.5">
+        <div class="w-10 h-10 rounded-lg bg-vet-light text-vet flex items-center justify-center shrink-0">
+          <i data-lucide="star" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="font-heading font-bold text-slate-900 text-base sm:text-lg">4.7★ Rated</p>
+          <p class="text-xs sm:text-sm text-slate-600">128 verified Google reviews</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-3.5">
+        <div class="w-10 h-10 rounded-lg bg-vet-light text-vet flex items-center justify-center shrink-0">
+          <i data-lucide="indian-rupee" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="font-heading font-bold text-slate-900 text-base sm:text-lg">Fair Pricing</p>
+          <p class="text-xs sm:text-sm text-slate-600">Transparent &amp; affordable care</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES SECTION ==================== -->
+  <section id="services" class="scroll-mt-24 py-16 sm:py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="max-w-2xl">
+        <span class="text-xs font-bold uppercase tracking-wider text-warm">Veterinary Services</span>
+        <h2 class="mt-2 text-2xl sm:text-3xl font-extrabold text-slate-900">
+          Complete Medical, Surgical &amp; Diagnostic Care
+        </h2>
+        <p class="mt-3 text-slate-600 text-sm sm:text-base">
+          Whether your puppy needs routine vaccinations, your cat needs gentle neutering, or your pet requires urgent diagnostics, we handle everything cleanly in one place.
+        </p>
+      </div>
+
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <!-- Service 1 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 hover:border-vet/50 hover:shadow-md transition-all flex flex-col">
+          <div class="w-11 h-11 rounded-xl bg-vet-light text-vet flex items-center justify-center mb-4">
+            <i data-lucide="stethoscope" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-bold text-slate-900 text-base">General Vet Consultations</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed flex-1">
+            Thorough physical exams, fever and infection treatment, and unhurried guidance for dogs and cats.
+          </p>
+          <a href="https://wa.me/919860928038?text=Hello%20Pulse%20Pet%20Hospital%2C%20I%20would%20like%20to%20book%20a%20General%20Vet%20Consultation."
+             target="_blank" rel="noopener noreferrer"
+             class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-vet hover:text-warm">
+            <span>Book on WhatsApp</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 hover:border-vet/50 hover:shadow-md transition-all flex flex-col">
+          <div class="w-11 h-11 rounded-xl bg-vet-light text-vet flex items-center justify-center mb-4">
+            <i data-lucide="flask-conical" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-bold text-slate-900 text-base">In-House Diagnostics &amp; Lab</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed flex-1">
+            Accurate blood work, pathology testing, and rapid diagnostic screening so treatment starts quickly.
+          </p>
+          <a href="https://wa.me/919860928038?text=Hello%20Pulse%20Pet%20Hospital%2C%20I%20would%20like%20to%20enquire%20about%20Pet%20Diagnostics%20%26%20Lab%20Tests."
+             target="_blank" rel="noopener noreferrer"
+             class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-vet hover:text-warm">
+            <span>Book on WhatsApp</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 hover:border-vet/50 hover:shadow-md transition-all flex flex-col">
+          <div class="w-11 h-11 rounded-xl bg-vet-light text-vet flex items-center justify-center mb-4">
+            <i data-lucide="activity" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-bold text-slate-900 text-base">Surgery, Spay &amp; Neuter</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed flex-1">
+            Safe cat and dog sterilization, soft-tissue surgeries, and dedicated post-operative recovery guidance.
+          </p>
+          <a href="https://wa.me/919860928038?text=Hello%20Pulse%20Pet%20Hospital%2C%20I%20would%20like%20to%20enquire%20about%20Pet%20Surgery%20%2F%20Spay-Neuter."
+             target="_blank" rel="noopener noreferrer"
+             class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-vet hover:text-warm">
+            <span>Book on WhatsApp</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 hover:border-vet/50 hover:shadow-md transition-all flex flex-col">
+          <div class="w-11 h-11 rounded-xl bg-vet-light text-vet flex items-center justify-center mb-4">
+            <i data-lucide="syringe" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-bold text-slate-900 text-base">Vaccinations &amp; Deworming</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed flex-1">
+            Complete puppy and kitten immunization schedules, anti-rabies shots, annual boosters, and parasite prevention.
+          </p>
+          <a href="https://wa.me/919860928038?text=Hello%20Pulse%20Pet%20Hospital%2C%20I%20would%20like%20to%20book%20a%20Vaccination%20%2F%20Deworming%20visit."
+             target="_blank" rel="noopener noreferrer"
+             class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-vet hover:text-warm">
+            <span>Book on WhatsApp</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 hover:border-vet/50 hover:shadow-md transition-all flex flex-col">
+          <div class="w-11 h-11 rounded-xl bg-warm-light text-warm flex items-center justify-center mb-4">
+            <i data-lucide="siren" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-bold text-slate-900 text-base">Urgent &amp; Late-Night Care</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed flex-1">
+            Extended evening and late-night support for sudden illness, trauma, poisoning, or dehydration emergencies.
+          </p>
+          <a href="tel:+919860928038"
+             class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-warm hover:text-vet">
+            <span>Call Directly Now</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 hover:border-vet/50 hover:shadow-md transition-all flex flex-col">
+          <div class="w-11 h-11 rounded-xl bg-vet-light text-vet flex items-center justify-center mb-4">
+            <i data-lucide="sparkles" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-bold text-slate-900 text-base">Skin, Tick &amp; Allergy Care</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed flex-1">
+            Targeted dermatology treatments for tick fever, fungal infections, rashes, and seasonal hair fall.
+          </p>
+          <a href="https://wa.me/919860928038?text=Hello%20Pulse%20Pet%20Hospital%2C%20I%20would%20like%20to%20enquire%20about%20Skin%20%2F%20Tick%20Treatment%20for%20my%20pet."
+             target="_blank" rel="noopener noreferrer"
+             class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-vet hover:text-warm">
+            <span>Book on WhatsApp</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <!-- Service 7 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 hover:border-vet/50 hover:shadow-md transition-all flex flex-col">
+          <div class="w-11 h-11 rounded-xl bg-vet-light text-vet flex items-center justify-center mb-4">
+            <i data-lucide="shield-plus" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-bold text-slate-900 text-base">Pet Dental &amp; Oral Care</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed flex-1">
+            Oral checkups, gum care, and treatment for bad breath, tartar buildup, and painful dental issues.
+          </p>
+          <a href="https://wa.me/919860928038?text=Hello%20Pulse%20Pet%20Hospital%2C%20I%20would%20like%20to%20enquire%20about%20Pet%20Dental%20Care."
+             target="_blank" rel="noopener noreferrer"
+             class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-vet hover:text-warm">
+            <span>Book on WhatsApp</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <!-- Service 8 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 hover:border-vet/50 hover:shadow-md transition-all flex flex-col">
+          <div class="w-11 h-11 rounded-xl bg-vet-light text-vet flex items-center justify-center mb-4">
+            <i data-lucide="heart-handshake" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-bold text-slate-900 text-base">Preventive &amp; Senior Care</h3>
+          <p class="mt-2 text-sm text-slate-600 leading-relaxed flex-1">
+            Routine health checkups, nutrition guidance, and gentle chronic-care monitoring for aging pets.
+          </p>
+          <a href="https://wa.me/919860928038?text=Hello%20Pulse%20Pet%20Hospital%2C%20I%20would%20like%20to%20book%20a%20Preventive%20Health%20Checkup%20for%20my%20pet."
+             target="_blank" rel="noopener noreferrer"
+             class="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-vet hover:text-warm">
+            <span>Book on WhatsApp</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== MEET DR. RAJIV KANT ==================== -->
+  <section id="doctor" class="scroll-mt-24 py-16 sm:py-20 bg-slate-50 border-y border-slate-200/80">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 grid lg:grid-cols-12 gap-10 items-center">
+      <!-- Doctor Card -->
+      <div class="lg:col-span-5">
+        <div class="rounded-2xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm text-center">
+          <!--
+            TO ADD REAL DOCTOR PHOTO LATER:
+            Upload doctor.jpg to GitHub and replace the div below with:
+            <img src="doctor.jpg" alt="Dr. Rajiv Kant - Pulse Pet Hospital" class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-vet-light shadow-sm" />
+          -->
+          <div class="w-32 h-32 mx-auto rounded-full bg-vet-light border-4 border-white shadow-md flex items-center justify-center text-vet">
+            <i data-lucide="user-round-check" class="w-14 h-14"></i>
+          </div>
+
+          <h3 class="mt-5 text-xl font-extrabold text-slate-900">Dr. Rajiv Kant</h3>
+          <p class="text-sm font-semibold text-vet">Lead Veterinarian &amp; Surgeon</p>
+          <p class="mt-1 text-xs text-slate-500">Pulse Pet Hospital &amp; Diagnostic Center</p>
+
+          <div class="mt-6 grid grid-cols-2 gap-3 text-left">
+            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/70">
+              <p class="text-xs text-slate-500">Patient Rating</p>
+              <p class="font-bold text-slate-900 text-sm mt-0.5">4.7★ (128 Reviews)</p>
+            </div>
+            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/70">
+              <p class="text-xs text-slate-500">Focus</p>
+              <p class="font-bold text-slate-900 text-sm mt-0.5">Medicine &amp; Surgery</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bio & Philosophy -->
+      <div class="lg:col-span-7">
+        <span class="text-xs font-bold uppercase tracking-wider text-warm">Meet Your Veterinarian</span>
+        <h2 class="mt-2 text-2xl sm:text-3xl font-extrabold text-slate-900">
+          Gentle With Pets. Clear &amp; Honest With Pet Parents.
+        </h2>
+        <p class="mt-4 text-slate-600 leading-relaxed">
+          Pet parents across Gomti Nagar trust <strong class="text-slate-800">Dr. Rajiv Kant</strong> and his supportive staff for combining deep clinical experience with genuine compassion. Every pet is handled calmly to reduce clinic anxiety.
+        </p>
+        <p class="mt-3 text-slate-600 leading-relaxed">
+          From explaining diagnostic reports step-by-step to guiding families through surgery and home recovery, Pulse Pet Hospital focuses on effective, reasonably priced treatment without unnecessary procedures.
+        </p>
+
+        <div class="mt-6 grid sm:grid-cols-2 gap-3.5 text-sm text-slate-700">
+          <div class="flex items-center gap-2.5">
+            <i data-lucide="check" class="w-4 h-4 text-vet shrink-0"></i>
+            <span>Calm, stress-free pet handling</span>
+          </div>
+          <div class="flex items-center gap-2.5">
+            <i data-lucide="check" class="w-4 h-4 text-vet shrink-0"></i>
+            <span>Clear explanation of every diagnosis</span>
+          </div>
+          <div class="flex items-center gap-2.5">
+            <i data-lucide="check" class="w-4 h-4 text-vet shrink-0"></i>
+            <span>Affordable, transparent treatment costs</span>
+          </div>
+          <div class="flex items-center gap-2.5">
+            <i data-lucide="check" class="w-4 h-4 text-vet shrink-0"></i>
+            <span>Dedicated post-surgery follow-up care</span>
+          </div>
+        </div>
+
+        <div class="mt-7">
+          <a href="https://wa.me/919860928038?text=Hello%20Dr.%20Rajiv%20Kant%2C%20I%20would%20like%20to%20consult%20regarding%20my%20pet."
+             target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-vet hover:bg-vet-dark text-white text-sm font-semibold shadow-sm transition-colors">
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
+            <span>Message Hospital on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== WHATSAPP PET BOOKING FORM ==================== -->
+  <section id="book" class="scroll-mt-24 py-16 sm:py-20 bg-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <div class="rounded-2xl border border-slate-200 bg-white shadow-lg overflow-hidden">
+        <div class="bg-vet text-white px-6 sm:px-8 py-6">
+          <span class="text-xs font-bold uppercase tracking-wider text-amber-300">Fast Appointment Request</span>
+          <h2 class="mt-1 text-2xl font-extrabold">Book Your Pet's Visit on WhatsApp</h2>
+          <p class="mt-1.5 text-sm text-emerald-100/90">
+            Share your pet's details below to send an instant booking request directly to our clinic WhatsApp.
+          </p>
+        </div>
+
+        <form id="booking-form" class="p-6 sm:p-8 space-y-5">
+          <div class="grid sm:grid-cols-2 gap-5">
+            <div>
+              <label for="owner-name" class="block text-sm font-semibold text-slate-700 mb-1.5">Pet Parent Name *</label>
+              <input type="text" id="owner-name" required placeholder="e.g., Ananya Singh"
+                     class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-vet focus:ring-2 focus:ring-vet/20 outline-none text-sm" />
+            </div>
+            <div>
+              <label for="owner-phone" class="block text-sm font-semibold text-slate-700 mb-1.5">Phone Number *</label>
+              <input type="tel" id="owner-phone" required placeholder="e.g., 98609 XXXXX"
+                     class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-vet focus:ring-2 focus:ring-vet/20 outline-none text-sm" />
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-5">
+            <div>
+              <label for="pet-type" class="block text-sm font-semibold text-slate-700 mb-1.5">Pet Type</label>
+              <select id="pet-type"
+                      class="w-full px-4 py-3 rounded-xl border border-slate-300 bg-white focus:border-vet focus:ring-2 focus:ring-vet/20 outline-none text-sm">
+                <option value="Dog">Dog</option>
+                <option value="Puppy">Puppy</option>
+                <option value="Cat">Cat</option>
+                <option value="Kitten">Kitten</option>
+                <option value="Bird / Rabbit / Small Pet">Bird / Rabbit / Small Pet</option>
+              </select>
+            </div>
+            <div>
+              <label for="service" class="block text-sm font-semibold text-slate-700 mb-1.5">Reason for Visit</label>
+              <select id="service"
+                      class="w-full px-4 py-3 rounded-xl border border-slate-300 bg-white focus:border-vet focus:ring-2 focus:ring-vet/20 outline-none text-sm">
+                <option value="General Consultation / Checkup">General Consultation / Checkup</option>
+                <option value="Vaccination / Deworming">Vaccination / Deworming</option>
+                <option value="Blood Test / Diagnostics">Blood Test / Diagnostics</option>
+                <option value="Spay / Neuter / Surgery">Spay / Neuter / Surgery</option>
+                <option value="Skin / Tick / Allergy Care">Skin / Tick / Allergy Care</option>
+                <option value="Urgent / Emergency Care">Urgent / Emergency Care</option>
+                <option value="Post-Op Follow-up">Post-Op Follow-up</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-5">
+            <div>
+              <label for="visit-day" class="block text-sm font-semibold text-slate-700 mb-1.5">Preferred Day</label>
+              <select id="visit-day"
+                      class="w-full px-4 py-3 rounded-xl border border-slate-300 bg-white focus:border-vet focus:ring-2 focus:ring-vet/20 outline-none text-sm">
+                <option value="Today">Today</option>
+                <option value="Tomorrow">Tomorrow</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
+              </select>
+            </div>
+            <div>
+              <label for="visit-slot" class="block text-sm font-semibold text-slate-700 mb-1.5">Preferred Time Window</label>
+              <select id="visit-slot"
+                      class="w-full px-4 py-3 rounded-xl border border-slate-300 bg-white focus:border-vet focus:ring-2 focus:ring-vet/20 outline-none text-sm">
+                <option value="Morning OPD (10:00 AM – 2:00 PM)">Morning OPD (10:00 AM – 2:00 PM)</option>
+                <option value="Evening OPD (5:00 PM – 9:00 PM, Tue–Sun)">Evening OPD (5:00 PM – 9:00 PM, Tue–Sun)</option>
+                <option value="Late Evening / Night Care">Late Evening / Night Care</option>
+                <option value="Immediate / Urgent Visit">Immediate / Urgent Visit</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="pet-notes" class="block text-sm font-semibold text-slate-700 mb-1.5">Pet's Age, Breed or Symptoms (Optional)</label>
+            <textarea id="pet-notes" rows="2" placeholder="e.g., 2-year-old Labrador, not eating properly since morning..."
+                      class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-vet focus:ring-2 focus:ring-vet/20 outline-none text-sm"></textarea>
+          </div>
+
+          <button type="submit"
+                  class="w-full py-3.5 px-6 rounded-xl bg-wa hover:bg-wa-hover text-white font-semibold text-base shadow-md shadow-wa/20 flex items-center justify-center gap-2.5 transition-colors">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.49 0 .14 5.34.14 11.91c0 2.1.55 4.15 1.59 5.95L0 24l6.33-1.66a11.87 11.87 0 0 0 5.73 1.46h.01c6.57 0 11.92-5.34 11.92-11.91 0-3.18-1.24-6.17-3.47-8.41zM12.07 21.8h-.01a9.87 9.87 0 0 1-5.04-1.38l-.36-.21-3.76.99 1-3.66-.24-.38a9.84 9.84 0 0 1-1.51-5.25c0-5.45 4.44-9.89 9.91-9.89 2.65 0 5.13 1.03 7 2.9a9.83 9.83 0 0 1 2.9 7c0 5.45-4.44 9.88-9.89 9.88zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.21 5.09 4.5.71.31 1.27.49 1.7.63.71.23 1.36.2 1.88.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/></svg>
+            <span>Send Booking via WhatsApp</span>
+          </button>
+
+          <p class="text-center text-xs sm:text-sm text-slate-500">
+            For medical emergencies, please call directly:
+            <a href="tel:+919860928038" class="font-semibold text-vet hover:underline">+91 98609 28038</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PET PARENT REVIEWS ==================== -->
+  <section id="reviews" class="scroll-mt-24 py-16 sm:py-20 bg-slate-50 border-y border-slate-200/80">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-warm">Pet Parent Feedback</span>
+          <h2 class="mt-2 text-2xl sm:text-3xl font-extrabold text-slate-900">Loved by Gomti Nagar Pet Families</h2>
+        </div>
+        <div class="inline-flex items-center gap-3 px-4 py-2.5 rounded-xl bg-white border border-slate-200 shadow-sm self-start sm:self-auto">
+          <div class="text-amber-500 text-base tracking-tight">★★★★★</div>
+          <div class="text-sm">
+            <span class="font-extrabold text-slate-900">4.7 / 5.0</span>
+            <span class="text-slate-500 ml-1">(128 Google Reviews)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-10 grid md:grid-cols-3 gap-6">
+        <!-- Review 1 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="text-amber-500 text-sm mb-3">★★★★★</div>
+            <p class="text-sm text-slate-600 leading-relaxed">
+              "Dr. Rajiv Kant is professional, caring, and takes the time to explain every step clearly. My pet felt completely comfortable and well looked after throughout the visit."
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span class="font-semibold text-slate-800">Verified Pet Parent</span>
+            <span>Google Review</span>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="text-amber-500 text-sm mb-3">★★★★★</div>
+            <p class="text-sm text-slate-600 leading-relaxed">
+              "Had both of my cats neutered here and it was a wonderful, stress-free experience. Very compassionate doctor, supportive staff, and affordable treatment."
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span class="font-semibold text-slate-800">Verified Cat Parent</span>
+            <span>Google Review</span>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="text-amber-500 text-sm mb-3">★★★★★</div>
+            <p class="text-sm text-slate-600 leading-relaxed">
+              "Best experienced doctor to visit when your pet is unwell. Reasonable prices compared to other clinics, great location in Vineet Khand, and convenient parking."
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+            <span class="font-semibold text-slate-800">Verified Pet Parent</span>
+            <span>Google Review</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TIMINGS & LOCATION ==================== -->
+  <section id="timings" class="scroll-mt-24 py-16 sm:py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="max-w-2xl">
+        <span class="text-xs font-bold uppercase tracking-wider text-warm">Visit the Hospital</span>
+        <h2 class="mt-2 text-2xl sm:text-3xl font-extrabold text-slate-900">Hospital Timings &amp; Location</h2>
+      </div>
+
+      <div class="mt-10 grid lg:grid-cols-12 gap-8 items-start">
+        <!-- Weekly Timings Card -->
+        <div class="lg:col-span-5 rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
+          <div class="px-6 py-4 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
+            <h3 class="font-bold text-slate-900 flex items-center gap-2">
+              <i data-lucide="clock" class="w-4 h-4 text-vet"></i>
+              <span>Weekly OPD &amp; Extended Hours</span>
+            </h3>
+            <span class="text-xs font-semibold text-slate-500">IST</span>
+          </div>
+
+          <ul id="schedule-list" class="divide-y divide-slate-100 text-sm">
+            <li data-day="1" class="px-6 py-3.5 flex items-start justify-between gap-4">
+              <span class="font-medium text-slate-700 day-label shrink-0">Monday</span>
+              <span class="font-semibold text-slate-900 text-right">10 AM – 2 PM<br /><span class="text-xs font-medium text-slate-500">Night: 10 PM – 9 AM</span></span>
+            </li>
+            <li data-day="2" class="px-6 py-3.5 flex items-start justify-between gap-4">
+              <span class="font-medium text-slate-700 day-label shrink-0">Tuesday</span>
+              <span class="font-semibold text-slate-900 text-right">10 AM – 2 PM &amp; 5 PM – 12 AM<br /><span class="text-xs font-medium text-slate-500">Night: 12 AM – 9 AM</span></span>
+            </li>
+            <li data-day="3" class="px-6 py-3.5 flex items-start justify-between gap-4">
+              <span class="font-medium text-slate-700 day-label shrink-0">Wednesday</span>
+              <span class="font-semibold text-slate-900 text-right">10 AM – 2 PM &amp; 5 PM – 12 AM<br /><span class="text-xs font-medium text-slate-500">Night: 12 AM – 9 AM</span></span>
+            </li>
+            <li data-day="4" class="px-6 py-3.5 flex items-start justify-between gap-4">
+              <span class="font-medium text-slate-700 day-label shrink-0">Thursday</span>
+              <span class="font-semibold text-slate-900 text-right">10 AM – 2 PM &amp; 5 PM – 12 AM<br /><span class="text-xs font-medium text-slate-500">Night: 12 AM – 9 AM</span></span>
+            </li>
+            <li data-day="5" class="px-6 py-3.5 flex items-start justify-between gap-4">
+              <span class="font-medium text-slate-700 day-label shrink-0">Friday</span>
+              <span class="font-semibold text-slate-900 text-right">10 AM – 2 PM &amp; 5 PM – 12 AM<br /><span class="text-xs font-medium text-slate-500">Night: 12 AM – 9 AM</span></span>
+            </li>
+            <li data-day="6" class="px-6 py-3.5 flex items-start justify-between gap-4">
+              <span class="font-medium text-slate-700 day-label shrink-0">Saturday</span>
+              <span class="font-semibold text-slate-900 text-right">10 AM – 2 PM &amp; 5 PM – 12 AM<br /><span class="text-xs font-medium text-slate-500">Night: 12 AM – 9 AM</span></span>
+            </li>
+            <li data-day="0" class="px-6 py-3.5 flex items-start justify-between gap-4">
+              <span class="font-medium text-slate-700 day-label shrink-0">Sunday</span>
+              <span class="font-semibold text-vet text-right">10 AM – 2 PM &amp; 5 PM – 12 AM<br /><span class="text-xs font-medium text-slate-500">Night: 12 AM – 9 AM</span></span>
+            </li>
+          </ul>
+
+          <div class="px-6 py-4 bg-vet-light border-t border-slate-200 text-xs text-slate-700 flex items-center gap-2">
+            <i data-lucide="info" class="w-4 h-4 text-vet shrink-0"></i>
+            <span>Call ahead before late-night or emergency arrivals so our team is ready.</span>
+          </div>
+        </div>
+
+        <!-- Address, Facilities & Map -->
+        <div class="lg:col-span-7 space-y-5">
+          <div class="p-6 rounded-2xl border border-slate-200 bg-white shadow-sm">
+            <div class="flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-vet-light text-vet flex items-center justify-center shrink-0">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-slate-900">Hospital Address</h3>
+                <p class="mt-1 text-sm text-slate-600 leading-relaxed">
+                  SS-3/634, Vineet Khand 3, Gomti Nagar,<br />
+                  Lucknow, Uttar Pradesh 226010
+                </p>
+              </div>
+            </div>
+
+            <!-- Facility Pills -->
+            <div class="mt-5 flex flex-wrap gap-2 text-xs font-medium text-slate-700">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-100">
+                <i data-lucide="car" class="w-3.5 h-3.5 text-vet"></i> Convenient Parking
+              </span>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-100">
+                <i data-lucide="smartphone" class="w-3.5 h-3.5 text-vet"></i> Google Pay &amp; UPI Accepted
+              </span>
+              <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-100">
+                <i data-lucide="calendar" class="w-3.5 h-3.5 text-vet"></i> Open on Sundays
+              </span>
+            </div>
+
+            <div class="mt-5 flex flex-wrap gap-3">
+              <a href="https://maps.google.com/?q=Pulse+Pet+Hospital+And+Diagnostic+Center,+SS-3/634,+Vineet+Khand,+Gomti+Nagar,+Lucknow"
+                 target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-vet hover:bg-vet-dark text-white text-sm font-semibold transition-colors">
+                <i data-lucide="navigation" class="w-4 h-4"></i>
+                <span>Get Directions</span>
+              </a>
+              <a href="tel:+919860928038"
+                 class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-300 hover:border-vet text-slate-800 hover:text-vet text-sm font-semibold transition-colors">
+                <i data-lucide="phone" class="w-4 h-4"></i>
+                <span>Call +91 98609 28038</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Embedded Map -->
+          <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm h-64 sm:h-72 bg-slate-100">
+            <iframe
+              title="Pulse Pet Hospital and Diagnostic Center Map"
+              src="https://maps.google.com/maps?q=Pulse+Pet+Hospital+And+Diagnostic+Center,+Vineet+Khand,+Gomti+Nagar,+Lucknow&t=&z=16&ie=UTF8&iwloc=&output=embed"
+              class="w-full h-full border-0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-vet-dark text-slate-200 pt-12 pb-24 md:pb-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 grid md:grid-cols-3 gap-8 pb-8 border-b border-white/10">
+      <div>
+        <h3 class="font-heading font-bold text-white text-lg">Pulse Pet Hospital &amp; Diagnostic Center</h3>
+        <p class="mt-2 text-sm text-emerald-100/80 leading-relaxed">
+          Compassionate veterinary medicine, surgery, and in-house diagnostics led by Dr. Rajiv Kant in Vineet Khand, Gomti Nagar, Lucknow.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="font-semibold text-white text-sm uppercase tracking-wider">Quick Links</h4>
+        <ul class="mt-3 space-y-2 text-sm text-emerald-100/80">
+          <li><a href="#services" class="hover:text-white transition-colors">Veterinary Services</a></li>
+          <li><a href="#doctor" class="hover:text-white transition-colors">Meet Dr. Rajiv Kant</a></li>
+          <li><a href="#book" class="hover:text-white transition-colors">Book an Appointment</a></li>
+          <li><a href="#timings" class="hover:text-white transition-colors">Timings &amp; Directions</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-semibold text-white text-sm uppercase tracking-wider">Contact</h4>
+        <p class="mt-3 text-sm text-emerald-100/80">SS-3/634, Vineet Khand 3, Gomti Nagar, Lucknow, UP 226010</p>
+        <p class="mt-2 text-sm">
+          <a href="tel:+919860928038" class="text-white font-semibold hover:underline">+91 98609 28038</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-emerald-200/70">
+      <p>© <span id="year"></span> Pulse Pet Hospital &amp; Diagnostic Center. All rights reserved.</p>
+      <p>Open 7 Days • Vineet Khand, Gomti Nagar</p>
+    </div>
+  </footer>
+
+  <!-- ==================== PERSISTENT MOBILE STICKY BAR (<768px) ==================== -->
+  <div class="fixed bottom-0 inset-x-0 z-50 md:hidden bg-white border-t border-slate-200 p-3 shadow-[0_-4px_16px_rgba(15,23,42,0.08)]">
+    <div class="grid grid-cols-2 gap-3">
+      <a href="tel:+919860928038"
+         class="flex items-center justify-center gap-2 py-3 rounded-xl bg-vet text-white font-semibold text-sm active:scale-[0.99] transition">
+        <i data-lucide="phone-call" class="w-4 h-4"></i>
+        <span>Call Now</span>
+      </a>
+      <a href="https://wa.me/919860928038?text=Hello%20Pulse%20Pet%20Hospital%2C%20I%20would%20like%20to%20book%20a%20visit%20for%20my%20pet."
+         target="_blank" rel="noopener noreferrer"
+         class="flex items-center justify-center gap-2 py-3 rounded-xl bg-wa text-white font-semibold text-sm active:scale-[0.99] transition">
+        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.49 0 .14 5.34.14 11.91c0 2.1.55 4.15 1.59 5.95L0 24l6.33-1.66a11.87 11.87 0 0 0 5.73 1.46h.01c6.57 0 11.92-5.34 11.92-11.91 0-3.18-1.24-6.17-3.47-8.41zM12.07 21.8h-.01a9.87 9.87 0 0 1-5.04-1.38l-.36-.21-3.76.99 1-3.66-.24-.38a9.84 9.84 0 0 1-1.51-5.25c0-5.45 4.44-9.89 9.91-9.89 2.65 0 5.13 1.03 7 2.9a9.83 9.83 0 0 1 2.9 7c0 5.45-4.44 9.88-9.89 9.88zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.21 5.09 4.5.71.31 1.27.49 1.7.63.71.23 1.36.2 1.88.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ==================== FLOATING DESKTOP WHATSAPP PILL (>=768px) ==================== -->
+  <a href="https://wa.me/919860928038?text=Hello%20Pulse%20Pet%20Hospital%2C%20I%20would%20like%20to%20book%20a%20vet%20consultation."
+     target="_blank" rel="noopener noreferrer"
+     class="hidden md:inline-flex items-center gap-2.5 fixed bottom-6 right-6 z-50 px-5 py-3 rounded-full bg-wa hover:bg-wa-hover text-white font-semibold text-sm shadow-lg shadow-wa/30 transition-all hover:-translate-y-0.5">
+    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.49 0 .14 5.34.14 11.91c0 2.1.55 4.15 1.59 5.95L0 24l6.33-1.66a11.87 11.87 0 0 0 5.73 1.46h.01c6.57 0 11.92-5.34 11.92-11.91 0-3.18-1.24-6.17-3.47-8.41zM12.07 21.8h-.01a9.87 9.87 0 0 1-5.04-1.38l-.36-.21-3.76.99 1-3.66-.24-.38a9.84 9.84 0 0 1-1.51-5.25c0-5.45 4.44-9.89 9.91-9.89 2.65 0 5.13 1.03 7 2.9a9.83 9.83 0 0 1 2.9 7c0 5.45-4.44 9.88-9.89 9.88zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.21 5.09 4.5.71.31 1.27.49 1.7.63.71.23 1.36.2 1.88.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/></svg>
+    <span>Chat on WhatsApp</span>
+  </a>
+
+  <!-- ==================== INTERACTIVE SCRIPTS ==================== -->
+  <script>
+    lucide.createIcons();
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // 1. Live Hospital Status & Current Day Highlighting (IST / Asia/Kolkata)
+    (function updateHospitalStatusIST() {
+      const now = new Date();
+      const istParts = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'Asia/Kolkata',
+        weekday: 'short',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      }).formatToParts(now);
+
+      const map = Object.fromEntries(istParts.map(p => [p.type, p.value]));
+      const dayMap = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+      const dayIndex = dayMap[map.weekday];
+      const mins = parseInt(map.hour, 10) * 60 + parseInt(map.minute, 10);
+
+      // Highlight today's row
+      const todayRow = document.querySelector(`#schedule-list li[data-day="${dayIndex}"]`);
+      if (todayRow) {
+        todayRow.classList.add('bg-vet-light/80');
+        const label = todayRow.querySelector('.day-label');
+        if (label) {
+          label.innerHTML += ' <span class="ml-1.5 text-[11px] font-bold uppercase px-2 py-0.5 rounded-full bg-vet text-white">Today</span>';
+        }
+      }
+
+      const dot = document.getElementById('live-status-dot');
+      const text = document.getElementById('live-status-text');
+
+      // Verified Google Maps intervals
+      const intervals = dayIndex === 1
+        ? [
+            { start: 0, end: 540, endLabel: '9:00 AM' },
+            { start: 600, end: 840, endLabel: '2:00 PM' },
+            { start: 1320, end: 1440, endLabel: '12:00 AM' }
+          ]
+        : [
+            { start: 0, end: 540, endLabel: '9:00 AM' },
+            { start: 600, end: 840, endLabel: '2:00 PM' },
+            { start: 1020, end: 1440, endLabel: '12:00 AM' }
+          ];
+
+      const active = intervals.find(i => mins >= i.start && mins < i.end);
+      if (active) {
+        dot.className = 'w-2.5 h-2.5 rounded-full bg-wa animate-pulse shrink-0';
+        text.textContent = `Open Now • Until ${active.endLabel}`;
+      } else {
+        dot.className = 'w-2.5 h-2.5 rounded-full bg-amber-500 shrink-0';
+        const next = intervals.find(i => mins < i.start);
+        const nextTime = next
+          ? (next.start === 600 ? '10:00 AM' : next.start === 1020 ? '5:00 PM' : '10:00 PM')
+          : '12:00 AM';
+        text.textContent = `Short Break • Reopens Today at ${nextTime}`;
+      }
+    })();
+
+    // 2. WhatsApp Pet Booking Form Submission
+    document.getElementById('booking-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const owner = document.getElementById('owner-name').value.trim();
+      const phone = document.getElementById('owner-phone').value.trim();
+      const petType = document.getElementById('pet-type').value;
+      const service = document.getElementById('service').value;
+      const day = document.getElementById('visit-day').value;
+      const slot = document.getElementById('visit-slot').value;
+      const notes = document.getElementById('pet-notes').value.trim();
+
+      const lines = [
+        'Hello Pulse Pet Hospital, I would like to book an appointment for my pet.',
+        '',
+        `*Pet Parent:* ${owner}`,
+        `*Phone:* ${phone}`,
+        `*Pet Type:* ${petType}`,
+        `*Service:* ${service}`,
+        `*Preferred Day:* ${day}`,
+        `*Preferred Time:* ${slot}`
+      ];
+
+      if (notes) {
+        lines.push(`*Details / Symptoms:* ${notes}`);
+      }
+
+      const whatsappUrl = `https://wa.me/919860928038?text=${encodeURIComponent(lines.join('\n'))}`;
+      window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+    });
+  </script>
+</body>
+</html>
